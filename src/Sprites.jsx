@@ -15,7 +15,6 @@ function Sprites({ sprites }) {
         })}
       <div>hello</div>
       <div>hello</div>
-      <div>hello</div>
     </Row>
   );
 }

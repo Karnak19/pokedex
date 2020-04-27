@@ -46,11 +46,18 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
     "prettier": "^2.0.5"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint — fix",
+      "git add"
+    ]
   }
 }

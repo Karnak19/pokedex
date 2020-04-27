@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Navbar,
   NavbarBrand,
@@ -11,9 +11,9 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-} from "reactstrap";
-import { Link } from "react-router-dom";
-import usePokemon from "./usePokemon";
+} from 'reactstrap';
+import { Link } from 'react-router-dom';
+import usePokemon from './usePokemon';
 
 function TheNavbar() {
   const [isOpen, setIsOpen] = useState(false);

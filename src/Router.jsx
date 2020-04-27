@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import TheNavbar from "./Navbar";
-import Home from "./Home";
-import Pokemon from "./Pokemon";
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import TheNavbar from './Navbar';
+import Home from './Home';
+import Pokemon from './Pokemon';
 
 function Router() {
   return (

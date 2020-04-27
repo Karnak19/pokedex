@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col, Spinner } from "reactstrap";
-import { useParams } from "react-router-dom";
-import Axios from "axios";
-import Stats from "./Stats";
-import Sprites from "./Sprites";
+import React, { useEffect, useState } from 'react';
+import { Container, Row, Col, Spinner } from 'reactstrap';
+import { useParams } from 'react-router-dom';
+import Axios from 'axios';
+import Stats from './Stats';
+import Sprites from './Sprites';
 
-function Pokemon(props) {
+function Pokemon() {
   const [pokemon, setPokemon] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const { pokemon: name } = useParams();

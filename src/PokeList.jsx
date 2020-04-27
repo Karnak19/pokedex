@@ -1,7 +1,7 @@
-import React from "react";
-import { Row } from "reactstrap";
-import usePokemon from "./usePokemon";
-import PokemonInfo from "./PokemonInfo";
+import React from 'react';
+import { Row } from 'reactstrap';
+import usePokemon from './usePokemon';
+import PokemonInfo from './PokemonInfo';
 
 function PokeList() {
   const { pokemons } = usePokemon(100);

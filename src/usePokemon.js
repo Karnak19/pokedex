@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 export default function (limit) {
   const [pokemons, setPokemons] = useState([]);
@@ -12,7 +12,7 @@ export default function (limit) {
       setPokemons(data.results);
     };
     getPokemons();
-  }, []);
+  }, [limit]);
 
   return { pokemons };
 }

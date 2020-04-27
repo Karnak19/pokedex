@@ -1,5 +1,5 @@
-import React from "react";
-import { Col, Progress, Row } from "reactstrap";
+import React from 'react';
+import { Col, Progress, Row } from 'reactstrap';
 
 function Stats({ stats }) {
   return (

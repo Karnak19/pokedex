@@ -1,6 +1,6 @@
-import React from "react";
-import { Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function PokemonInfo({ name }) {
   return (

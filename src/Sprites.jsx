@@ -13,6 +13,7 @@ function Sprites({ sprites }) {
             </Col>
           );
         })}
+      <div>hello</div>
     </Row>
   );
 }

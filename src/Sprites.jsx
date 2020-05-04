@@ -10,6 +10,7 @@ function Sprites({ sprites }) {
           return (
             <Col key={`${key}`}>
               <img src={value} alt="" />
+              <p>{key}</p>
             </Col>
           );
         })}

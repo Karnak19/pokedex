@@ -55,8 +55,8 @@
     }
   },
   "lint-staged": {
-    "*.{js, jsx}": [
-      "./node_modules/.bin/eslint --fix --max-warnings=0"
+    "*.{js,jsx}": [
+      "./node_modules/.bin/eslint --max-warnings=0"
     ]
   }
 }
